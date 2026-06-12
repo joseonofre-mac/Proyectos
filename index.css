@@ -1,0 +1,42 @@
+/* Encabezado responsivo */
+.encabezado {
+  background: linear-gradient(135deg, #000000, #454545);
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+/* Tarjetas con efecto */
+.tarjeta {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tarjeta:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Imágenes responsivas */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Texto */
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Botones */
+.btn {
+  border-radius: 20px;
+  font-weight: bold;
+}
