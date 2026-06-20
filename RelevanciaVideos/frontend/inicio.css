@@ -1,0 +1,25 @@
+/* Altura máxima de la tabla para que se alinee estéticamente con el video */
+.custom-table-container {
+    max-height: 440px;
+    overflow-y: auto;
+}
+
+/* Mantiene el header 'thead' fijo en la parte superior durante el scroll */
+.custom-table-container thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1);
+}
+
+/* Tipografía monoespaciada para que las marcas de tiempo no se desalineen */
+.fw-mono {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+/* Animación sutil al pasar el mouse por encima de las filas */
+.table tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
