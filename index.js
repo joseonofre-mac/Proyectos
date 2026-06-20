@@ -1,8 +1,10 @@
 // Definimos las rutas
 const routes = {
-  pagina1: "pagina1.html",
+  pagina1: "PTAR/inicio.html",
   pagina2: "pagina2.html",
   pagina3: "pagina3.html"
+  pagina4: "pagina4.html"
+  pagina5: "RelevanciaVideos/inicio.html"
 };
 
 function initCardEvents() {
